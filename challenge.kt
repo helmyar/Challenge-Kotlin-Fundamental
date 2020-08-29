@@ -10,7 +10,7 @@ fun main() {
     val nama: String? = input.nextLine()
 
     if (nama.isNullOrEmpty()) {
-        println("Wajib Diisi ya Senpai><")
+        println("Diisi ya agan agan")
         main()
     }
     print("Kelas : ")
@@ -19,7 +19,7 @@ fun main() {
     val Absen = input.nextInt()
     print("GitHub : ")
     val git: String? = null
-    val gitLength = git?.length ?: "eka-ant16"
+    val gitLength = git?.length ?: "helmyar"
     println(gitLength)
     println("================================")
     println("\n")
@@ -28,7 +28,7 @@ fun main() {
 fun menu(){
     println("==========Menu==========")
     println("1. Kerucut\n2. Tabung\n ")
-    print ("Mao pilih yang mana : ")
+    print ("Mau pilih yang mana : ")
     val select:Int? = input.nextInt()
     when (select) {
         1 -> kerucut()
